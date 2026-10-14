@@ -1,9 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-<title>Hola Mundo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+
+    <script>
+        var instance = M.Carousel.init({
+            fullWidth: true,
+            indicators: true
+        });
+
+        // Or with jQuery
+
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+
+    </script>
+
 </head>
+
 <body>
-<h1>¡Hola Mundo!</h1>
+    <a href="index.html" class="waves-effect waves-light btn-large deep-purple pulse">Indice</a>
+    <a href="index3.html" class="waves-effect waves-light btn-large deep-purple"><i
+            class="material-icons left">arrow_upward</i>uso de divs</a>
+    <a href="media.html" class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+
+
+    <br>
+    <br>
+
+    <a href="index.html" class="btn-floating btn-large waves-effect waves-light  deep-purple"><i
+            class="material-icons">arrow_upward</i></a>
+
+
+
+    <div class="col s12 m2">
+        <p class="z-depth-1">z-depth-1</p>
+    </div>
+    <div class="col s12 m2">
+        <p class="z-depth-2">z-depth-2</p>
+    </div>
+    <div class="col s12 m2">
+        <p class="z-depth-3">z-depth-3</p>
+    </div>
+    <div class="col s12 m2">
+        <p class="z-depth-4">z-depth-4</p>
+    </div>
+    <div class="col s12 m2">
+        <p class="z-depth-5">z-depth-5</p>
+    </div>
+
+
+    <div>
+        <table class="centered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Alvin</td>
+                    <td>Eclair</td>
+                    <td>$0.87</td>
+                </tr>
+                <tr>
+                    <td>Alan</td>
+                    <td>Jellybean</td>
+                    <td>$3.76</td>
+                </tr>
+                <tr>
+                    <td>Jonathan</td>
+                    <td>Lollipop</td>
+                    <td>$7.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <nav>
+            <div class="nav-wrapper deep-purple accent-1">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Mis gustos</a></li>
+                    <li><a href="badges.html">Mis habilidades</a></li>
+                    <li><a href="collapsible.html">Mis pasatiempos</a></li>
+                    <li><a href="collapsible.html">Mi carrera</a></li>
+                    <li><a href="collapsible.html">JavaScript3</a></li>
+                    <li><a href="collapsible.html">JavaScript4</a></li>
+                    <li><a href="collapsible.html">JavaScript5</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+                <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+                <h2>First Panel</h2>
+                <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+
 </body>
+
+
+
 </html>
